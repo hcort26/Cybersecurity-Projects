@@ -29,7 +29,7 @@ A simulated penetration test engagement for Stamford Health. Includes documentat
 A data visualization project in Python using Pandas and Matplotlib to display trends in Linux and Windows system vulnerabilities over time based on inventory data.
 
 ### 🖥️ `MicrosoftGUI_Project`
-A GUI-based Java project demonstrating security-related functionalities within a user-friendly interface, incorporating secure coding and design concepts.
+A prototype Java application providing a graphical interface for creating GitHub repositories from local projects. Features include initializing a Git repository, creating a `.gitignore`, generating a `README.md`, communicating with the GitHub API, and pushing an initial commit. This prototype is for academic purposes and not intended for production.
 
 ### 🛡️ `NWP2_Project`
 A comprehensive multiplayer trivia game system built in Java. Incorporates concurrency, TCP/UDP networking, GUI design with Java Swing, and quiz logic. Includes question polling, answer evaluation, and score tracking.
