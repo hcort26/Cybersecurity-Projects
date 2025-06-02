@@ -1,19 +1,14 @@
-## Getting Started
+# CSC340 Project 1: File Transfer and Word Count
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project showcases a client-server application implemented in Java, designed to securely transfer a text file (`words.txt`) from a server to multiple clients. Additionally, the project includes a `WordCount` utility to analyze the transferred file and count the total number of words.
 
-## Folder Structure
+## 📂 Project Structure
+- `Client/Client.java`: Client-side application that connects to the server, receives the file, and saves it locally as `received_words.txt`.
+- `Client/Server.java`: Server-side application that handles incoming client connections, sends the `words.txt` file, and limits connections to five clients.
+- `Client/WordCount.java`: A utility class that reads a text file and counts the number of words it contains.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# CSC340Project1
+## 🔑 Key Features
+- **Multi-Client Support**: The server can handle up to 5 concurrent client connections using multithreading.
+- **File Transfer**: Secure transmission of a text file over sockets.
+- **Word Count Utility**: Analyzes the received file and outputs the total word count.
+- **Error Handling**: Includes checks for file existence, connection errors, and graceful shutdown of sockets.
