@@ -1,18 +1,15 @@
-## Getting Started
+# Port Scanner
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is a Python-based port scanner that scans a specified remote host for open TCP ports, reporting the service running on each open port. The script provides real-time feedback and scan duration information.
 
-## Folder Structure
+## 📂 Project Files
+- `port_scanner.py`: Python script for scanning ports and identifying services on a target host.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🔑 Key Features
+- **Full Range Scan**: Scans all 65,535 TCP ports (in descending order).
+- **Service Detection**: Attempts to identify the service running on each open port using `socket.getservbyport()`.
+- **User Input**: Prompts for the target host.
+- **Timeout Handling**: Includes a 1-second timeout to avoid long waits on unresponsive ports.
+- **Cross-Platform**: Uses `socket` and `subprocess` libraries for compatibility.
+- **Error Handling**: Manages interruptions, unknown hostnames, and connection errors gracefully.
+- **Duration Tracking**: Records and reports total scan time.
