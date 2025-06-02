@@ -4,7 +4,7 @@ This project visualizes Linux and Windows OS security vulnerabilities over time 
 
 ## 📂 Project Files
 - `vulns.csv`: Contains inventory and vulnerability data for Linux and Windows systems.
-- `visualization_analysis.py` or `visualization_notebook.ipynb`: Python script or notebook used to load data, generate plots, and display results.
+- `visualization_analysis.py` or `visualization_notebook.ipynb`: Python script or notebook used to load data, generate plots, and display results. (Shown in .docx file)
 
 ## 🔑 Key Features
 - **Data Handling**: Reads and processes CSV data using Pandas.
