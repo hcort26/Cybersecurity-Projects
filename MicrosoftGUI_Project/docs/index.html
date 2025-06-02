@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QU GitHub GUI – Repository Creator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #418FDE;
+      color: #fff;
+    }
+
+    .hero {
+      width: 100%;
+      height: 280px;
+      background: url("QU.jpg") no-repeat center center;
+      background-size: cover;
+    }
+
+    .title-bar {
+      background-color: #0C2340;
+      color: #FFB81C;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 1rem;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 850px;
+      background-color: #0C2340;
+      padding: 2.5rem 3rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+      color: #FFB81C;
+      margin-top: 2rem;
+    }
+
+    ul, ol {
+      margin-left: 1.5rem;
+      color: #fff;
+    }
+
+    img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 8px;
+      display: block;
+      margin: 0 auto;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px 5px rgba(255, 184, 28, 0.8);
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #FFB81C;
+      color: #0C2340;
+      font-weight: bold;
+      padding: 0.7rem 1.4rem;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #ffc94d;
+      box-shadow: 0 0 12px 4px rgba(255, 184, 28, 0.8);
+    }
+
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero"></div>
+
+  <div class="title-bar">
+    QU GitHub GUI – Repository Creator (Prototype)
+  </div>
+
+  <div class="wrapper">
+    <div class="container">
+      <p>This Java-based application allows users to convert a local project into a GitHub repository. It handles Git initialization, file generation, remote setup, and pushes the first commit — all through a modern GUI.</p>
+
+      <h2>Features</h2>
+      <ul>
+        <li>Initialize a Git repository from a project path</li>
+        <li>Automatically generate <code>.gitignore</code> and <code>README.md</code></li>
+        <li>Create and push the initial commit to GitHub</li>
+        <li>Uses GitHub API to configure remote repository settings</li>
+        <li>Returns the public URL of the created repository</li>
+      </ul>
+
+      <h2>GUI Preview</h2>
+      <img src="QU2.png" alt="Application GUI Screenshot">
+
+      <h2>How to Use</h2>
+      <ol>
+        <li>Download and run the application</li>
+        <li>Enter your GitHub credentials (never share your token)</li>
+        <li>Select your project folder</li>
+        <li>Submit the form to create and push your GitHub repository</li>
+      </ol>
+
+      <h2>Repository Link</h2>
+      <a class="button" href="https://github.com/hcort26/MicrosoftGUI" target="_blank">View Project on GitHub</a>
+
+      <h2>Disclaimer</h2>
+      <p>This application is a working prototype developed for academic demonstration and is not intended for commercial use.</p>
+
+      <footer>
+        Built by Shane, Henry & Phil · Quinnipiac University · Spring 2025
+      </footer>
+    </div>
+  </div>
+
+</body>
+</html>
