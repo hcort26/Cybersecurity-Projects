@@ -1,0 +1,11 @@
+account_id,home_location,usual_devices,avg_amount,avg_velocity,account_age_days,fraud_transactions,total_transactions
+acct_1,NJ,"iPhone, Tablet",220,2,1183,0,150
+acct_2,CT,"Android, iPhone",220,1,1908,0,150
+acct_3,NY,"iPhone, Tablet",60,2,2249,0,150
+acct_4,FL,"iPhone, Android",220,3,1082,0,150
+acct_5,TX,"Tablet, MacBook",40,2,1911,2,150
+acct_6,CA,"MacBook, Android",60,2,598,0,150
+acct_7,NY,"Windows, iPhone",85,2,1263,6,150
+acct_8,NY,"Windows, iPhone",120,1,2441,1,150
+acct_9,CA,"Tablet, MacBook",175,2,464,0,150
+acct_10,NY,"Android, MacBook",40,2,593,0,150
